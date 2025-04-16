@@ -1,3 +1,5 @@
+
+import About from '@/components/about'
 import RoleCycle from '@/components/RoleCycle'
 import React from 'react'
 
@@ -16,9 +18,7 @@ const Page = () => {
                 <RoleCycle />
                 <div className='mt-6 text-xl'>Transforming ideas into seamless experiences across web and mobile platforms.</div>
             </section>
-            <section id='about' className='w-full min-h-[100vh] flex justify-center items-center mt-10 py-10'>
-                About
-            </section>
+            <About />
             <section id='project' className='w-full min-h-[100vh] flex justify-center items-center mt-10 py-10'>
                 Project
             </section>
