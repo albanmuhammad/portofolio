@@ -1,5 +1,6 @@
 
 import About from '@/components/about'
+import Contact from '@/components/Contact'
 import Project from '@/components/Project'
 import RoleCycle from '@/components/RoleCycle'
 import React from 'react'
@@ -21,9 +22,7 @@ const Page = () => {
             </section>
             <About />
             <Project/>
-            <section id='contact' className='w-full min-h-[100vh] flex justify-center items-center mt-10 py-10'>
-                Contact
-            </section>
+            <Contact/>
         </>
     )
 }
