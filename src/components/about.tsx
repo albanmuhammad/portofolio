@@ -20,7 +20,7 @@ const About = () => {
                 initial={{ opacity: 0, y: 50 }}
                 animate={isSkillInView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.6, ease: 'easeOut' }}
-                className="container grid h-full items-center justify-center md:grid-cols-2 gap-6 mt-12 py-16"
+                className="container grid h-full items-center justify-center md:grid-cols-2 gap-6 mt-12 py-16 px-6 md:px-16"
             >
                 <div className='text-xl px-8 md:px-0 text-center md:text-left'>
                     Hello stranger! 👋, my name is Alban Muhammad and I am a front-end developer and mobile application developer, passionate
@@ -51,7 +51,7 @@ const About = () => {
                 initial={{ opacity: 0, y: 50 }}
                 animate={isExpInView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.6, ease: 'easeOut' }}
-                className='w-full bg-gray-50 flex justify-center'
+                className='w-full bg-gray-50 flex justify-center px-6 md:px-16'
             >
                 <div className="container grid h-full items-center justify-center md:grid-cols-3 gap-6 my-8 py-12">
                     <div className='hidden md:block h-full relative'>

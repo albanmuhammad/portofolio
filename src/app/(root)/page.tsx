@@ -5,6 +5,11 @@ import Project from '@/components/Project'
 import RoleCycle from '@/components/RoleCycle'
 import React from 'react'
 
+export const metada = {
+    title: "Alban Portofolio",
+    description: "Alban Portofolio"
+}
+
 const Page = () => {
     return (
         <>

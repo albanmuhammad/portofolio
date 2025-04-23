@@ -37,7 +37,7 @@ const Page = () => {
     const filteredProjects = projects.filter((p) => p.mobile === (activeTab === 'mobile'));
 
     return (
-        <section id="project" className="w-full min-h-[100vh] flex flex-col justify-center items-center mt-24 py-10 px-6">
+        <section id="project" className="w-full min-h-[100vh] flex flex-col justify-center items-center mt-24 py-10 px-8">
             <h2 className="text-4xl font-bold mb-6">Projects</h2>
 
             {/* Tabs */}
