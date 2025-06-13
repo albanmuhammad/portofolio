@@ -33,11 +33,21 @@ const Page = () => {
             companyName: 'Rombis Lajon',
             mobile: true,
             shortDescription: 'Mobile Travel Booking Application',
-            description: 'Lightweight mobile PWA for field health agents...',
+            description: 'Mobile Application that is used for the local community to book a seat in a bus for person or package',
             link: '-',
             github: 'https://github.com/albanmuhammad/rombis_lajon',
             techStack: ['Flutter'],
             foto: '/rombisLajon.jpeg',
+        },
+        {
+            companyName: 'PT. IDS Medilcal Systems',
+            mobile: true,
+            shortDescription: 'Mobile CRM Application',
+            description: 'Mobile Application for sales too manage their data such as activity, prospect, opportunity, and many more',
+            link: '-',
+            github: '-',
+            techStack: ['Flutter'],
+            foto: '/sparksmobile1.png',
         },
     ];
 
